@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd
 
 data = pd.read_csv('../input/xl.csv', usecols=(6,7,8,9,10,11,12,13,14,15), na_values=('77', '88'))
 
